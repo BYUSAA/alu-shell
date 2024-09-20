@@ -1,2 +1,2 @@
-#!/bin/bashi
-echo "Current directory:"ls -dal .
+#!/bin/bash
+ls -l -a . .. /boot
