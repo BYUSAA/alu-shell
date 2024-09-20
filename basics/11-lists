@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "Current directory:"; ls -dal ./.*; echo "Parent of working directory:"; cd ..; ls -dal ./.*; echo "/boot directory:"; ls -dal /boot/.*
+#!/bin/bashi
+echo "Current directory"
