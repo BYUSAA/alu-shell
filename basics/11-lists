@@ -1,2 +1,2 @@
 #!/bin/bashi
-echo "Current directory"
+echo "Current directory:"ls -dal .
