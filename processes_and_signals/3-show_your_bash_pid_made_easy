@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Use pidof command to get the PIDs of processes containing the word "bash"
+pidof bash | 
+# Use xargs to execute the command "echo" with the PID and process name as arguments
+xargs -I {} echo {} bash

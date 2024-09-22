@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get a list of all running processes
+ps -ef --forest | 
+# Use grep to search for lines containing the word "bash"
+grep bash
+# shellcheck disable=SC2009
