@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Bash script that displays 'To infinity and beyond' indefinitely
+# Requirement:
+#	-In between each iteration of the loop, add a 'sleep 2'
 
-# Use an infinite loop to print the message indefinitely
 while true
 do
-  # Print the message
-  echo "To infinity and beyond"
-  # Wait for 2 seconds before the next iteration
-  sleep 2
+    echo "To infinity and beyond"
+    sleep 2
 done
