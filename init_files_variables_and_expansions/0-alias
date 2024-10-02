@@ -1,11 +1,2 @@
-# Create the alias
-echo "alias ls='rm *'" > 0-alias
-
-# Source the alias
-source ./0-alias
-
-# Run the alias (this will delete files)
-ls
-
-# Bypass the alias
-\ls
+#!/bin/bash
+alias  ls="rm *"
